@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import descansoImg from '../public/descanso.jpg' // o '/descanso.jpg' si la dejas en public
 
 const ESTUDIANTES_MORNING = [
   { id: 1, nombre: "Barriere García Aldo Enrique", archivo: "/morning/ENRIQUE.png" },
@@ -92,7 +93,7 @@ function App() {
           <p className="subtitle-bonfire">Has llegado al tramo final</p>
 
           <div className="image-container">
-            <img src="./public/descanso.jpg" alt="Descanso junto a la fogata" />
+            <img src="/descanso.jpg" alt="Descanso junto a la fogata" />
           </div>
 
           <p className="quote">
