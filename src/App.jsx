@@ -37,7 +37,27 @@ const ESTUDIANTES_MORNING = [
 ]
 
 const ESTUDIANTES_AFTERNOON = [
-  // Agrega aquí los estudiantes del turno de la tarde apuntando a /afternoon/NOMBRE.png
+    { id: 1, nombre: "Alvarenga Guirola Roxana Beatriz", archivo: "/afternoon/1 BEATRIZ.png" },
+  { id: 2, nombre: "Fernández Navarro Victoria Gabriela", archivo: "/afternoon/2 VICTORIA.png" },
+  { id: 3, nombre: "Flores Landaverde Damaris Abigail", archivo: "/afternoon/3 DAMARIS.png" },
+  { id: 4, nombre: "García Hurtado Andrea Liliana", archivo: "/afternoon/4 LILIANA.png" },
+  { id: 5, nombre: "Henríquez Ávalos Adriana Lucia", archivo: "/afternoon/5 LUCIA.png" },
+  { id: 6, nombre: "Hernández Guardado Hernán Mauricio", archivo: "/afternoon/6 HERNAN.png" },
+  { id: 7, nombre: "GHerrera Márquez Camila Alexandra", archivo: "/afternoon/7 MARQUEZ.png" },
+  { id: 8, nombre: "Marroquín Aguilar Emerson Alejandro", archivo: "/afternoon/8 EMERSON.png" },
+  { id: 9, nombre: "Montiel López Chris Johansen", archivo: "/afternoon/9 CHRIS.png" },
+  { id: 10, nombre: "Navarrete Mejía Kevin Fernando", archivo: "/afternoon/10 - FERNANDO.png" },
+  { id: 11, nombre: "Orellana Montes Linsay Linneth", archivo: "/afternoon/11 LINSAY.png" },
+  { id: 12, nombre: "Osorio Cruz Camila Nicole ", archivo: "/afternoon/12 OSORIO.png" },
+  { id: 13, nombre: "Pérez Regalo Katherine Marisol", archivo: "/afternoon/13 KATHERINE.png" },
+  { id: 14, nombre: "Ramírez Candido Monica Samanda ", archivo: "/afternoon/14 MONICA.png" },
+  { id: 15, nombre: "Ramírez Serrano Oscar Adalberto ", archivo: "/afternoon/15 OSCAR.png" },
+  { id: 16, nombre: "Ramos Aguirre Jeferson José ", archivo: "/afternoon/16 JEFF.png" },
+  { id: 17, nombre: "Rauda Paiz Carmen Alejandra ", archivo: "/afternoon/17 CARMEN.png" },
+  { id: 18, nombre: "Rivas Miranda David Alejandro", archivo: "/afternoon/18 DAVID.png" },
+  { id: 19, nombre: "Rodríguez Pineda Elida Yamileth", archivo: "/afternoon/19 YAMI.png" },
+  { id: 20, nombre: "Trejo Martínez Ángel Gabriel", archivo: "/afternoon/20 GABRIEL.png" },
+  { id: 21, nombre: "Vásquez Borja Stefany Alicia", archivo: "/afternoon/21 STEFANY.png" },
 ]
 
 function App() {
