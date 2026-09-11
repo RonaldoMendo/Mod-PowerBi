@@ -1,0 +1,213 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Tarjeta Arcade estilo retro */
+.arcade-card, .bonfire-card, .letter-card {
+  background: #1a1b26;
+  border: 4px solid #f59e0b;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.3);
+}
+.bonfire-card .quote{
+  font-size: 15px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #fbbf24;
+  margin-bottom: 25px;
+}
+
+.title-start {
+  font-size: 36px;
+  color: #f59e0b;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 25px;
+  color: #e2e8f0;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-option, .btn-next, .btn-reset {
+  font-family: inherit;
+  background: #f59e0b;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.1s, background 0.2s;
+}
+
+.btn-option:hover, .btn-next:hover {
+  background: #fbbf24;
+  transform: scale(1.05);
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #f59e0b;
+  margin: 15px 0;
+}
+
+.quote {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.letter-content p {
+  font-size: 11px;
+  line-height: 1.8;
+  margin: 15px 0;
+  text-align: left;
+  color: #e2e8f0;
+}
+
+.options-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.btn-option-large {
+  font-family: inherit;
+  background: #f59e0b;
+  color: #000;
+  border: none;
+  padding: 16px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.1s, background 0.2s;
+}
+
+.btn-option-large:hover {
+  background: #fbbf24;
+  transform: scale(1.02);
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+/* Tarjeta contenedora para reconocimientos */
+.students-card {
+  background: #1a1b26;
+  border: 4px solid #f59e0b;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 650px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.3);
+}
+
+.title-students {
+  font-size: 30px;
+  color: #fbbf24;
+  margin-bottom: 10px;
+}
+
+.subtitle-students {
+  font-size: 10px;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Buscador */
+.search-input {
+  width: 100%;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 10px;
+  background: #0d0e15;
+  border: 2px solid #f59e0b;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+}
+
+/* Lista scrollable */
+.students-list {
+  max-height: 280px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-right: 5px;
+}
+
+/* Filas de la lista de estudiantes */
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d0e15;
+  border: 1px solid #334155;
+  padding: 10px 14px;
+  border-radius: 8px;
+  gap: 15px;
+  text-align: left;
+}
+
+.student-name {
+  font-size: 9px;
+  color: #e2e8f0;
+  line-height: 1.4;
+}
+
+/* Botón de descargar */
+.btn-download {
+  font-family: inherit;
+  background: #0284c7;
+  color: #ffffff !important;
+  padding: 8px 12px;
+  font-size: 9px;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn-download:hover {
+  background: #0369a1;
+  transform: scale(1.05);
+}
